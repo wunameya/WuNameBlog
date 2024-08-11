@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="752e3541-56d4-4615-81da-3e79e971a865" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogAdmin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogAdmin/src/main/java/org/eu/wuname/BlogAdminApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogAdmin/src/main/java/org/eu/wuname/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogAdmin/src/main/java/org/eu/wuname/controller/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogAdmin/src/main/java/org/eu/wuname/controller/BlogInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogAdmin/src/main/java/org/eu/wuname/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogAdmin/src/main/java/org/eu/wuname/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogAdmin/src/main/java/org/eu/wuname/controller/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogAdmin/src/main/java/org/eu/wuname/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogAdmin/src/main/java/org/eu/wuname/filter/JwtAuthenticationTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogAdmin/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogFront/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogFront/src/main/java/org/eu/wuname/BlogApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogFront/src/main/java/org/eu/wuname/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogFront/src/main/java/org/eu/wuname/controller/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogFront/src/main/java/org/eu/wuname/controller/BlogInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogFront/src/main/java/org/eu/wuname/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogFront/src/main/java/org/eu/wuname/cornjob/UpdateViewCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogFront/src/main/java/org/eu/wuname/filter/JwtAuthenticationTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogFront/src/main/java/org/eu/wuname/runner/ViewCountRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlogFront/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/config/FastJsonRedisSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/constants/AppHttpCodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/constants/SystemCanstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/LoginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/ResponseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/dto/AddUserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/dto/ChangePasswordDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/entity/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/entity/BlogInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/entity/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/entity/UserMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/vo/ArticleDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/vo/ArticleListVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/vo/PageVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/vo/UserVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/exception/SystemException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/handler/mybatisplus/MyMetaObjectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/mapper/ArticleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/mapper/BlogInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/mapper/MenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/mapper/UserMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/security/AccessDeniedHandlerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/security/AuthenticationEntryPointImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/BlogInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/MenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/SystemLoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/UserMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/BlogInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/MenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/PermissionServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/SystemLoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/UserMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/utils/BeanCopyUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/utils/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/utils/RedisCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/utils/SecurityUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/utils/WebUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/resources/mapper/MenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/test/java/DateFormatConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/test/java/test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2k0xs4dp7ToyywnMbKorVNh6LFB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_directory_selection": "C:/Users/wuname/IdeaProjects/WuNameBlog/BlogFront/src/main/java/su/wmy",
+    "last_opened_file_path": "C:/Users/wuname/IdeaProjects/WuNameBlog/BlogFront/src/main/java/su/wmy/config",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "configurable.group.language",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wuname\IdeaProjects\WuNameBlog\BlogFront\src\main\java\su\wmy\config" />
+      <recent name="C:\Users\wuname\IdeaProjects\WuNameBlog\BlogFront\src\main\java\su\wmy" />
+      <recent name="C:\Users\wuname\IdeaProjects\WuNameBlog\BlogFront\src\main\resources" />
+      <recent name="C:\Users\wuname\IdeaProjects\WuNameBlog\PublicMoudle\src\main\java\su\wmy\service" />
+      <recent name="C:\Users\wuname\IdeaProjects\WuNameBlog\PublicMoudle\src\main\java\su\wmy\mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="su.wmy.domain.entity" />
+      <recent name="su.wmy.mapper" />
+      <recent name="su.wmy.cornjob" />
+      <recent name="su.wmy.runner" />
+      <recent name="su.wmy.filter" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BlogAdminApplication (1)">
+    <configuration name="test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test1" />
+      <module name="PublicMoudle" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogAdmin.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/BlogAdmin/target/BlogAdmin.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BlogFront.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/BlogFront/target/BlogFront.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BlogAdminApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="BlogAdmin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.eu.wuname.BlogAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="BlogAdmin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="su.wmy.BlogAdminApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="su.wmy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="BlogFront" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.eu.wuname.BlogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="BlogFront" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="su.wmy.BlogApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="su.wmy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.BlogFront.jar" />
+        <item itemvalue="Application.test1" />
+        <item itemvalue="JAR Application.BlogAdmin.jar" />
+        <item itemvalue="Spring Boot.BlogAdminApplication" />
+        <item itemvalue="Spring Boot.BlogApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="752e3541-56d4-4615-81da-3e79e971a865" name="Changes" comment="" />
+      <created>1722434498633</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722434498633</updated>
+      <workItem from="1722434499645" duration="148447000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.5.0/spring-security-config-5.5.0.jar!/org/springframework/security/config/annotation/web/configurers/ExpressionUrlAuthorizationConfigurer.class</url>
+          <line>161</line>
+          <properties class="org.springframework.security.config.annotation.web.configurers.ExpressionUrlAuthorizationConfigurer.AuthorizedUrl" method="hasAuthority">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/MenuServiceImpl.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.String" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>
