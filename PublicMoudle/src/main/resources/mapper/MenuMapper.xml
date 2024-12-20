@@ -4,13 +4,14 @@
 <mapper namespace="org.eu.wuname.mapper.MenuMapper">
 
 <select id="selectMenuByUserId" resultType="org.eu.wuname.domain.entity.Menu">
-    select
-        m.id,m.menu_name,m.path
+    select distinct
+        m.id,m.menu_name,m.path,m.order_num
     from
-        user_menu mu
-            left join menu m on mu.menu_id = m.id
+        user_role ur
+            left join role_menu rm on ur.role_id = rm.role_id
+            left join menu m on m.id = rm.menu_id
     where
-        mu.user_id = #{userId}
+        ur.user_id = #{userId}
     order by
         m.order_num
 </select>

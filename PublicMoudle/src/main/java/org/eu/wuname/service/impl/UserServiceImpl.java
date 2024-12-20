@@ -5,9 +5,11 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.eu.wuname.constants.SystemCanstants;
 import org.eu.wuname.domain.dto.AddUserDto;
-import org.eu.wuname.domain.entity.UserMenu;
+
+import org.eu.wuname.domain.entity.UserRole;
 import org.eu.wuname.domain.vo.UserVo;
-import org.eu.wuname.service.UserMenuService;
+import org.eu.wuname.mapper.RoleMapper;
+import org.eu.wuname.service.UserRoleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.transaction.annotation.Transactional;
@@ -36,8 +38,10 @@ import java.util.stream.Collectors;
 @Service()
 public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements UserService {
 
+
+
     @Autowired
-    private UserMenuService userMenuService;
+    private UserRoleService userRoleService;
 
     @Autowired
     private PasswordEncoder passwordEncoder;
@@ -72,19 +76,24 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         }
 
 
-        LambdaQueryWrapper<UserMenu> queryWrapper = new LambdaQueryWrapper<>();
-        queryWrapper.eq(UserMenu::getUserId, user.getId());
-        userMenuService.remove(queryWrapper);
 
-        List<UserMenu> userMenus= addUserDto.getMenus().stream()
-                .map(menuId -> new UserMenu(user.getId(), menuId))
-                .collect(Collectors.toList());
-        userMenuService.saveBatch(userMenus);
+
+        LambdaQueryWrapper<UserRole> queryWrapper = new LambdaQueryWrapper<>();
+        queryWrapper.eq(UserRole::getUserId, user.getId());
+        userRoleService.remove(queryWrapper);
+
+        List<UserRole> userRoles = addUserDto.getRoles().stream()
+                        .map(roleId -> new UserRole(user.getId(), roleId))
+                                .collect(Collectors.toList());
+
+
+        userRoleService.saveBatch(userRoles);
+
         return ResponseResult.okResult();
     }
 
     @Autowired
-    private MenuMapper menuMapper;
+    private RoleMapper roleMapper;
     @Override
     public ResponseResult userList(Integer pageNum, Integer pageSize, String username) {
         LambdaQueryWrapper<User> queryWrapper = new LambdaQueryWrapper<>();
@@ -98,7 +107,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
 
         List<UserVo> userVosWithMenus = userVos.stream()
                 .map(userVo -> {
-                    userVo.setMenus(menuMapper.selectMenuByUserId(userVo.getId()));
+                    userVo.setRole(roleMapper.selectRoleByUserId(userVo.getId()));
                     return userVo;
                 })
                 .collect(Collectors.toList());

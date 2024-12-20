@@ -17,5 +17,5 @@ public class AddUserDto {
     //密码
     private String password;
 
-    private List<Long> menus;
+    private List<Long> roles;
 }

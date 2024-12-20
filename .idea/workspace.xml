@@ -4,104 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="752e3541-56d4-4615-81da-3e79e971a865" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlogAdmin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlogAdmin/src/main/java/org/eu/wuname/BlogAdminApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlogAdmin/src/main/java/org/eu/wuname/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlogAdmin/src/main/java/org/eu/wuname/controller/ArticleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlogAdmin/src/main/java/org/eu/wuname/controller/BlogInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlogAdmin/src/main/java/org/eu/wuname/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlogAdmin/src/main/java/org/eu/wuname/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlogAdmin/src/main/java/org/eu/wuname/controller/MenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlogAdmin/src/main/java/org/eu/wuname/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlogAdmin/src/main/java/org/eu/wuname/filter/JwtAuthenticationTokenFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlogAdmin/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlogFront/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlogFront/src/main/java/org/eu/wuname/BlogApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlogFront/src/main/java/org/eu/wuname/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlogFront/src/main/java/org/eu/wuname/controller/ArticleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlogFront/src/main/java/org/eu/wuname/controller/BlogInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlogFront/src/main/java/org/eu/wuname/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlogFront/src/main/java/org/eu/wuname/cornjob/UpdateViewCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlogFront/src/main/java/org/eu/wuname/filter/JwtAuthenticationTokenFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlogFront/src/main/java/org/eu/wuname/runner/ViewCountRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlogFront/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/config/FastJsonRedisSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/config/MybatisPlusConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/constants/AppHttpCodeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/constants/SystemCanstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/LoginUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/ResponseResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/dto/AddUserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/dto/ChangePasswordDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/entity/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/entity/BlogInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/entity/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/entity/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/entity/UserMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/vo/ArticleDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/vo/ArticleListVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/vo/PageVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/vo/UserVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/exception/SystemException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/handler/mybatisplus/MyMetaObjectHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/mapper/ArticleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/mapper/BlogInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/mapper/CategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/mapper/MenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/mapper/UserMenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/security/AccessDeniedHandlerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/security/AuthenticationEntryPointImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/ArticleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/BlogInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/MenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/SystemLoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/UserMenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/ArticleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/BlogInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/MenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/PermissionServiceImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/SystemLoginServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/UserMenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/utils/BeanCopyUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/utils/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/utils/RedisCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/utils/SecurityUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/utils/WebUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/resources/mapper/MenuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/test/java/DateFormatConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/test/java/test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="752e3541-56d4-4615-81da-3e79e971a865" name="Changes" comment="first submit">
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/entity/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/mapper/UserRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/UserRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/UserRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/resources/mapper/RoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogAdmin/src/main/java/org/eu/wuname/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BlogAdmin/src/main/java/org/eu/wuname/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogAdmin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/BlogAdmin/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogFront/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/BlogFront/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/LoginUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/dto/AddUserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/dto/AddUserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/entity/UserMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/vo/UserVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/vo/UserVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/mapper/UserMenuMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/MenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/UserMenuService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/MenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/MenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/UserMenuServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicMoudle/src/main/resources/mapper/MenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PublicMoudle/src/main/resources/mapper/MenuMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="module" />
+    </option>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -127,20 +73,22 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
     "last_directory_selection": "C:/Users/wuname/IdeaProjects/WuNameBlog/BlogFront/src/main/java/su/wmy",
-    "last_opened_file_path": "C:/Users/wuname/IdeaProjects/WuNameBlog/BlogFront/src/main/java/su/wmy/config",
+    "last_opened_file_path": "C:/Users/wuname/IdeaProjects/WuNameBlog/PublicMoudle/src/main/java/org/eu/wuname/service",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.side.proportion": "0.2443299",
     "settings.editor.selected.configurable": "configurable.group.language",
+    "spring.configuration.checksum": "3f95dc6af3820bd8f22d5975b957e65a",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
+      "redshift",
       "mysql"
     ]
   }
@@ -150,18 +98,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wuname\IdeaProjects\WuNameBlog\PublicMoudle\src\main\java\org\eu\wuname\service" />
+      <recent name="C:\Users\wuname\IdeaProjects\WuNameBlog" />
       <recent name="C:\Users\wuname\IdeaProjects\WuNameBlog\BlogFront\src\main\java\su\wmy\config" />
       <recent name="C:\Users\wuname\IdeaProjects\WuNameBlog\BlogFront\src\main\java\su\wmy" />
       <recent name="C:\Users\wuname\IdeaProjects\WuNameBlog\BlogFront\src\main\resources" />
-      <recent name="C:\Users\wuname\IdeaProjects\WuNameBlog\PublicMoudle\src\main\java\su\wmy\service" />
-      <recent name="C:\Users\wuname\IdeaProjects\WuNameBlog\PublicMoudle\src\main\java\su\wmy\mapper" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.eu.wuname.service.impl" />
+      <recent name="org.eu.wuname.service" />
+      <recent name="org.eu.wuname.mapper" />
+      <recent name="org.eu.wuname.domain.entity" />
       <recent name="su.wmy.domain.entity" />
-      <recent name="su.wmy.mapper" />
-      <recent name="su.wmy.cornjob" />
-      <recent name="su.wmy.runner" />
-      <recent name="su.wmy.filter" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.BlogAdminApplication (1)">
@@ -238,12 +186,55 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722434498633</updated>
-      <workItem from="1722434499645" duration="148447000" />
+      <workItem from="1722434499645" duration="148989000" />
+      <workItem from="1723518287637" duration="1350000" />
+      <workItem from="1723892973389" duration="42000" />
+      <workItem from="1726994076970" duration="1678000" />
+      <workItem from="1731381880996" duration="1652000" />
+      <workItem from="1731725042547" duration="6678000" />
+      <workItem from="1732251022919" duration="2098000" />
+      <workItem from="1732517361472" duration="8517000" />
+      <workItem from="1734496906175" duration="20928000" />
     </task>
+    <task id="LOCAL-00001" summary="first submit">
+      <created>1723380177246</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723380177246</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first submit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first submit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -256,11 +247,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/MenuServiceImpl.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

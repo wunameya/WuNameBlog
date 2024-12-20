@@ -1,6 +1,7 @@
 package org.eu.wuname.controller;
 
 import org.eu.wuname.domain.dto.AddUserDto;
+import org.eu.wuname.service.RoleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.eu.wuname.domain.ResponseResult;
@@ -13,8 +14,7 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @Autowired
-    private MenuService menuService;
+
 
     @PostMapping("/addUser")
     public ResponseResult addUser(@RequestBody AddUserDto user){
@@ -31,10 +31,14 @@ public class UserController {
         userService.removeById(id);
         return ResponseResult.okResult();
     }
+    @Autowired
+    RoleService roleService;
 
-    @GetMapping("/getAllMenus")
-    public ResponseResult getAllMenus(){
-        return menuService.getAllMenus();
+    @GetMapping("/getAllRoles")
+    public ResponseResult getRole(){
+        return roleService.getAllRole();
     }
+
+
 
 }

@@ -58,6 +58,7 @@ public class ArticleServiceImpl extends ServiceImpl<ArticleMapper, Article> impl
             article.setSummary(article.getContent().substring(0, Math.min(article.getContent().length(), 50)).replaceAll("\\p{Punct}", ""));
         }
         save(article);
+        redisCache.setCacheMapValue("article:viewCount", Long.toString(article.getId()), 1);
         return ResponseResult.okResult();
     }
 

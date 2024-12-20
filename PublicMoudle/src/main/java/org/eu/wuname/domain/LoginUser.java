@@ -29,6 +29,8 @@ public class LoginUser implements UserDetails {
     //权限信息的集合
     private List<String> permissions;
 
+    //private List<String> roles;
+
     @JSONField(serialize = false) //这个注解的作用是不让下面那行的成员变量序列化存入redis，避免redis不支持而报异常
     private List<SimpleGrantedAuthority> authorities;
 

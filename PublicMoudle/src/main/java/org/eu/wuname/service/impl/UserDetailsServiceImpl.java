@@ -46,6 +46,9 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 
         List<Menu> menus = menuMapper.selectMenuByUserId(user.getId());
 
+
+
+
         List<String> collect = menus.stream()
                 .map(Menu::getMenuName)
                 .collect(Collectors.toList());

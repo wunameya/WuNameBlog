@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
 import org.eu.wuname.domain.entity.Menu;
+import org.eu.wuname.domain.entity.Role;
 
 import java.util.List;
 
@@ -15,5 +16,5 @@ import java.util.List;
 public class UserVo {
     private Long id;
     private String userName;
-    private List<Menu> menus;
+    private List<Role> role;
 }
