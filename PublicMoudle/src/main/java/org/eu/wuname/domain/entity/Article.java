@@ -44,8 +44,9 @@ public class Article extends Model<Article> {
     private Date createTime;
     @TableField(fill = FieldFill.INSERT_UPDATE)
     private Long updateBy;
-    @TableField(fill = FieldFill.INSERT_UPDATE)
+    @TableField(fill = FieldFill.INSERT_UPDATE, update = "false")
     private Date updateTime;
+
 
     @TableField(exist = false)
     private String time;

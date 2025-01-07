@@ -7,13 +7,15 @@ import org.eu.wuname.domain.entity.Article;
 import org.eu.wuname.domain.vo.PageVo;
 import org.eu.wuname.service.ArticleService;
 
+import javax.websocket.server.PathParam;
+
 @RestController()
 @RequestMapping("/article")
 public class ArticleController {
     @Autowired
     private ArticleService articleService;
     @GetMapping("/articleList")
-    public ResponseResult<PageVo> articleList(Integer pageNum, Integer pageSize,String title){
+    public ResponseResult<PageVo> articleList( Integer pageNum, Integer pageSize, String title){
         return articleService.articleList(pageNum,pageSize,title);
     }
 

@@ -4,34 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="752e3541-56d4-4615-81da-3e79e971a865" name="Changes" comment="first submit">
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/entity/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/mapper/RoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/mapper/UserRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/UserRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/UserRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/resources/mapper/RoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" afterDir="false" />
+    <list default="true" id="752e3541-56d4-4615-81da-3e79e971a865" name="Changes" comment="新增RBAC权限控制">
+      <change afterPath="$PROJECT_DIR$/PublicMoudle/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlogAdmin/src/main/java/org/eu/wuname/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BlogAdmin/src/main/java/org/eu/wuname/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogAdmin/src/main/java/org/eu/wuname/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BlogAdmin/src/main/java/org/eu/wuname/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogAdmin/src/main/java/org/eu/wuname/filter/JwtAuthenticationTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/BlogAdmin/src/main/java/org/eu/wuname/filter/JwtAuthenticationTokenFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlogAdmin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/BlogAdmin/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlogFront/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/BlogFront/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/LoginUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/dto/AddUserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/dto/AddUserDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/entity/UserMenu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/vo/UserVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/vo/UserVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/mapper/UserMenuMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/MenuService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/UserMenuService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/ArticleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/MenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/MenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/entity/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/domain/entity/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/mapper/UserMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/UserMenuServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/PublicMoudle/src/main/java/org/eu/wuname/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PublicMoudle/src/main/resources/mapper/MenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PublicMoudle/src/main/resources/mapper/MenuMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PublicMoudle/src/test/java/test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/PublicMoudle/src/test/java/Test1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +37,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProjectId" id="2k0xs4dp7ToyywnMbKorVNh6LFB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -62,37 +48,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_directory_selection": "C:/Users/wuname/IdeaProjects/WuNameBlog/BlogFront/src/main/java/su/wmy",
-    "last_opened_file_path": "C:/Users/wuname/IdeaProjects/WuNameBlog/PublicMoudle/src/main/java/org/eu/wuname/service",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2443299",
-    "settings.editor.selected.configurable": "configurable.group.language",
-    "spring.configuration.checksum": "3f95dc6af3820bd8f22d5975b957e65a",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;SQL Inserts&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/wuname/IdeaProjects/WuNameBlog/BlogFront/src/main/java/su/wmy&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/wuname&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2443299&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.language&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;3f95dc6af3820bd8f22d5975b957e65a&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "redshift",
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;redshift&quot;,
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -112,10 +99,29 @@
       <recent name="su.wmy.domain.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.BlogAdminApplication (1)">
+  <component name="RunManager" selected="JUnit.Test1">
     <configuration name="test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test1" />
       <module name="PublicMoudle" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PublicMoudle" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test1" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test1.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PublicMoudle" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test1" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,19 +141,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BlogAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="BlogAdmin" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="su.wmy.BlogAdminApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="su.wmy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BlogApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="BlogFront" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.eu.wuname.BlogApplication" />
@@ -155,26 +148,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="BlogFront" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="su.wmy.BlogApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="su.wmy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JAR Application.BlogFront.jar" />
+        <item itemvalue="JUnit.Test1" />
+        <item itemvalue="JUnit.test1.test" />
         <item itemvalue="Application.test1" />
+        <item itemvalue="JAR Application.BlogFront.jar" />
         <item itemvalue="JAR Application.BlogAdmin.jar" />
-        <item itemvalue="Spring Boot.BlogAdminApplication" />
-        <item itemvalue="Spring Boot.BlogApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +174,8 @@
       <workItem from="1731725042547" duration="6678000" />
       <workItem from="1732251022919" duration="2098000" />
       <workItem from="1732517361472" duration="8517000" />
-      <workItem from="1734496906175" duration="20928000" />
+      <workItem from="1734496906175" duration="31255000" />
+      <workItem from="1735533063865" duration="7982000" />
     </task>
     <task id="LOCAL-00001" summary="first submit">
       <created>1723380177246</created>
@@ -203,11 +184,29 @@
       <option name="project" value="LOCAL" />
       <updated>1723380177246</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="新增RBAC权限控制">
+      <created>1734690783292</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734690783292</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -234,7 +233,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first submit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first submit" />
+    <MESSAGE value="新增RBAC权限控制" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增RBAC权限控制" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

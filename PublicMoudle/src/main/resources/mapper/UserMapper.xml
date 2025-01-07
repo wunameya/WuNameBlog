@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<!--MenuMapper接口的映射文件，这里就就相当是MenuMapper接口的实现类，select标签就相当于实现类的具体方法-->
+<mapper namespace="org.eu.wuname.mapper.UserMapper">
+
+    <select id="getUser" resultType="org.eu.wuname.domain.entity.User">
+        select * from user where id = #{id}
+
+    </select>
+
+</mapper>
