@@ -36,6 +36,7 @@ import static java.util.stream.Collectors.*;
  */
 @Service("articleService")
 public class ArticleServiceImpl extends ServiceImpl<ArticleMapper, Article> implements ArticleService {
+    private static final String ARTICLE_VIEW_COUNT_KEY = "article:viewCount";
 
     @Override
     public ResponseResult<PageVo> articleList(Integer pageNum, Integer pageSize, String keyword) {
@@ -58,7 +59,7 @@ public class ArticleServiceImpl extends ServiceImpl<ArticleMapper, Article> impl
             article.setSummary(article.getContent().substring(0, Math.min(article.getContent().length(), 50)).replaceAll("\\p{Punct}", ""));
         }
         save(article);
-        redisCache.setCacheMapValue("article:viewCount", Long.toString(article.getId()), 1);
+        redisCache.setCacheMapValue(ARTICLE_VIEW_COUNT_KEY, Long.toString(article.getId()), 1L);
         return ResponseResult.okResult();
     }
 
@@ -119,11 +120,27 @@ public class ArticleServiceImpl extends ServiceImpl<ArticleMapper, Article> impl
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
         articleDetail.setTime(sdf.format(article.getUpdateTime()));
 
-        Integer viewCount = redisCache.getCacheMapValue("article:viewCount", articleId.toString());
-        articleDetail.setViewCount(viewCount.longValue());
+        Object cachedViewCount = redisCache.getCacheMapValue(ARTICLE_VIEW_COUNT_KEY, articleId.toString());
+        Long viewCount = toLong(cachedViewCount, article.getViewCount() == null ? 0L : article.getViewCount());
+        articleDetail.setViewCount(viewCount);
 
-        redisCache.incrementCacheMapValue("article:viewCount",articleId.toString(),1);
+        redisCache.setCacheMapValue(ARTICLE_VIEW_COUNT_KEY, articleId.toString(), viewCount);
+        redisCache.incrementCacheMapValue(ARTICLE_VIEW_COUNT_KEY,articleId.toString(),1);
         return ResponseResult.okResult(articleDetail);
+    }
+
+    private Long toLong(Object value, Long defaultValue) {
+        if (value == null) {
+            return defaultValue;
+        }
+        if (value instanceof Number) {
+            return ((Number) value).longValue();
+        }
+        try {
+            return Long.parseLong(value.toString());
+        } catch (NumberFormatException e) {
+            return defaultValue;
+        }
     }
 }
 
